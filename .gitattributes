@@ -1,3 +1,16 @@
+# Atur line endings untuk file tertentu
 *.css text eol=lf
 *.js text eol=lf
+*.html text eol=lf
 *.scss text eol=lf
+*.php text eol=lf
+
+# Konfigurasi untuk file biner (agar tidak diubah line endings-nya)
+*.jpg binary
+*.png binary
+*.gif binary
+*.exe binary
+*.zip binary
+
+# Pastikan file shell script menggunakan LF
+*.sh text eol=lf
